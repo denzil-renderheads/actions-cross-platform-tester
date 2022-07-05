@@ -14,7 +14,7 @@ jobs:
           path: Library
           key: Library
       - name: Build project
-        uses: webbertakken/unity-builder@v2
+        uses: game-ci/unity-builder@v2
         env:
           # Comment this out if you're using a pro license
           # UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
