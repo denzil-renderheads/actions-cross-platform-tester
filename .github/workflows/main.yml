@@ -25,9 +25,6 @@ jobs:
         with:
           targetPlatform: StandaloneWindows64
           build-defines: UNITY_STANDALONE_WIN
-      - name: Return license
-        uses: game-ci/unity-return-license@v1
-        if: always()
       - uses: actions/upload-artifact@v2
         with:
           name: Build
